@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photography</title>
+        <link rel="icon" type="image/x-icon" href="../images/logo.png">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header id="header">
+            <div>
+            <a href="../index.html"><img id="logo" src="../images/logo.png" alt="Logo"></a>
+            <img id="headerImg" src="../images/header_img.jpg" alt="Header Image">
+            <h1>Photography</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article id="contactArticle">
+            <h2 id="signUp">Sign up</h2>
+            <form>
+                <div id="leftForm">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="First">
+                    <input type="text" id="name" name="name" placeholder="Last">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <br>
+                    <label for="location">Location:</label>
+                    <select name="location" id="location">
+                        <option value="empty"></option>
+                        <option value="QLD">Queensland</option>
+                        <option value="NSW">New South Wales</option>
+                        <option value="ACT">Australian Capital Territory</option>
+                        <option value="VIC">Victoria</option>
+                        <option value="TAS">Tasmania</option>
+                        <option value="WA">Western Australia</option>
+                        <option value="NT">Northern Territory</option>
+                        <option value="SA">South Australia</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div>Gender:</div>
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div id="rightForm">
+                    <div>Why are you interested in photography?</div>
+                    <input type="checkbox" id="profession" name="profession" value="Profession">
+                    <label for="profession">Profession</label><br>
+                    <input type="checkbox" id="hobby" name="hobby" value="Hobby">
+                    <label for="hobby">Hobby</label><br>
+                    <input type="checkbox" id="other" name="other" value="Other">
+                    <label for="other">Other</label>
+                    <br>
+                    <br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <br>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+
+            <h2 id="contactUs">Contact Us</h2>
+            <table>
+                <tr>
+                    <th>Admin Contact Name</th>
+                    <th>Email Address</th>
+                    <th>Location of Business (Address)</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <td>Phoebe Smith</td>
+                    <td>psmith@gmail.com</td>
+                    <td>39581 Clarke Parkway, Port Emmaberg, NSW, 9117</td>
+                    <td>0476 771 822</td>
+                </tr>
+              </table>
+        </article>
+
+        <footer id="footer">
+            <div id="icon">
+                <a href="https://www.facebook.com/" target="blank"><img class="icon" src="../images/facebook_icon.png" alt="Facebook"></a>
+                <a href="https://www.pinterest.com.au/login/" target="blank"><img class="icon" src="../images/pinterest_icon.png" alt="Pinterest"></a>
+                <a href="https://www.twitter.com/i/flow/login" target="blank"><img class="icon" src="../images/twitter_icon.png" alt="Twitter"></a>
+            </div>
+            <p>&copy; 2024 Ayeza Siddiqui</p>
+        </footer>
+    </body>
+</html>
